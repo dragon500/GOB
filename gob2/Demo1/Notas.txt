@@ -1,0 +1,31 @@
+﻿Metodo SUB - Metodo Function
+Puedes seleccionar entre uno y otro de 
+acuerdo al gusto del programador.
+Ejemplo:
+- Metodo PAGAR_PENSION()
+FORMA 1: 
+ Sub Pagar_Pension() => Realizar el pago
+ Prop. cuotasRestantes => Saber cuantas 
+ cuotas restan por pagar
+
+ FORMA 2:
+ Function Pagar_Pension() as byte
+ Esta funcion pagaría la pensión y  a la 
+ vez retornaría la cantidad de cuotas
+ que faltan pagar
+
+METODOS ESTATICOS
+Se debe usar un metodo estatico
+cuando SE DEPENDE mas de una CLASE
+que de un OBJETO
+
+
+
+
+
+
+
+
+
+
+

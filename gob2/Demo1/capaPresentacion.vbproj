@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{776D509E-EF89-4CFE-8A99-E9AAEA2E5289}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Demo1.My.MyApplication</StartupObject>
+    <RootNamespace>Demo1</RootNamespace>
+    <AssemblyName>Demo1</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Demo1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Demo1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmBusquedaExpediente.Designer.vb">
+      <DependentUpon>frmBusquedaExpediente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBusquedaExpediente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDetallesDeLibro.Designer.vb">
+      <DependentUpon>frmDetallesDeLibro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDetallesDeLibro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEjemploListas.Designer.vb">
+      <DependentUpon>frmEjemploListas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEjemploListas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExpedienteJudicial.Designer.vb">
+      <DependentUpon>frmExpedienteJudicial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmExpedienteJudicial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInicioSesion.Designer.vb">
+      <DependentUpon>frmInicioSesion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInicioSesion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPlantilla.Designer.vb">
+      <DependentUpon>frmPlantilla.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPlantilla.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPresentacion.Designer.vb">
+      <DependentUpon>frmPresentacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPresentacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.vb">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegistroDeUsuarios.Designer.vb">
+      <DependentUpon>frmRegistroDeUsuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegistroDeUsuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmBusquedaExpediente.resx">
+      <DependentUpon>frmBusquedaExpediente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDetallesDeLibro.resx">
+      <DependentUpon>frmDetallesDeLibro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEjemploListas.resx">
+      <DependentUpon>frmEjemploListas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExpedienteJudicial.resx">
+      <DependentUpon>frmExpedienteJudicial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInicioSesion.resx">
+      <DependentUpon>frmInicioSesion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPlantilla.resx">
+      <DependentUpon>frmPlantilla.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPresentacion.resx">
+      <DependentUpon>frmPresentacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegistroDeUsuarios.resx">
+      <DependentUpon>frmRegistroDeUsuarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="diagrama1.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marca-peru-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cosmo-padrinos+magicos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto_ace199_ori.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\los padrinos magicos cosmo y wando mirando arriba.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Notas.txt" />
+    <None Include="Resources\GRJ1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaReglasDeNegocio\CapaReglasDeNegocio.vbproj">
+      <Project>{C39DAA51-8AEF-4F2D-BEFF-39E13EA3C8ED}</Project>
+      <Name>CapaReglasDeNegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
